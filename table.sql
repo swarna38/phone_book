@@ -9,3 +9,11 @@
  city VARCHAR(50)
 );
 
+CREATE table orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    order_id INT(100) NOT NULL,
+    customer VARCHAR(100) NOT NULL,
+    item VARCHAR(100) NOT NULL,
+    qty INT(50) NOT NULL,
+    sub_total DECIMAL(10,2) NOT NULL
+); 
