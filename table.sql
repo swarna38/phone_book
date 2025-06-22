@@ -1,5 +1,11 @@
-<?php 
+-- Active: 1748595828724@@127.0.0.1@3306@phone_book
 
-CREATE TABLE customer (
-    
-)
+ CREATE TABLE contacts (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ first_name VARCHAR(50) NOT NULL,
+ last_name VARCHAR(50) NOT NULL,
+ phone VARCHAR(20) NOT NULL,
+ email VARCHAR(100) NOT NULL,
+ city VARCHAR(50)
+);
+
