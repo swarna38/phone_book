@@ -14,3 +14,26 @@ INSERT INTO contacts (first_name, last_name, phone, email, city) VALUES
 Jose');  
 
 
+INSERT INTO orders (order_id, customer, item, qty, sub_total) VALUES
+(1001, 'John Doe', 'Laptop', 1, 800.00),
+(1002, 'Jane Smith', 'Smartphone', 2, 1200.00),
+(1003, 'Alice Johnson', 'Headphones', 5, 250.00),
+(1004, 'Bob Brown', 'Monitor', 3, 450.00),
+(1005, 'Charlie White', 'Keyboard', 2, 80.00),
+(1006, 'Emily Davis', 'Laptop', 1, 1000.00),
+(1007, 'Frank Wilson', 'Smartphone', 3, 1800.00),
+(1008, 'Grace Miller', 'Headphones', 4, 200.00),
+(1009, 'Hannah Clark', 'Monitor', 2, 300.00),
+(1010, 'Ivy Lopez', 'Keyboard', 5, 200.00),
+(1011, 'John Doe', 'Mouse', 6, 150.00),
+(1012, 'Jane Smith', 'Printer', 1, 250.00),
+(1013, 'Alice Johnson', 'Scanner', 1, 400.00),
+(1014, 'Bob Brown', 'Speakers', 3, 450.00),
+(1015, 'Charlie White', 'Webcam', 2, 120.00),
+(1016, 'Emily Davis', 'Laptop Bag', 1, 50.00),
+(1017, 'Frank Wilson', 'Smartwatch', 1, 200.00),
+(1018, 'Grace Miller', 'Tablet', 2, 600.00),
+(1019, 'Hannah Clark', 'Desk Lamp', 4, 80.00),
+(1020, 'Ivy Lopez', 'External Hard Drive', 1, 120.00)
+
+ 
